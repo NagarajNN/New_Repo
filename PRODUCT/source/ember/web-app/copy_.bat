@@ -1,0 +1,1 @@
+xcopy /s  /y D:\MASTER\PRODUCT\source\ember\web-app\dist ..\..\iis_host

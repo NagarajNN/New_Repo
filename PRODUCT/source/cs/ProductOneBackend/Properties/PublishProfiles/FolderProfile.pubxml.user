@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\New folder (5)</_PublishTargetUrl>
+    <History>True|2022-10-09T14:40:15.5118344Z;True|2022-10-09T07:35:57.0766712-07:00;True|2022-10-09T07:35:17.3886263-07:00;True|2022-10-09T07:33:28.0940409-07:00;True|2022-10-09T07:32:27.7099382-07:00;True|2022-10-09T07:28:25.0534661-07:00;True|2022-10-09T07:27:39.6331274-07:00;True|2022-10-09T07:25:38.3822437-07:00;True|2022-07-12T10:36:41.7980284-07:00;True|2022-07-12T10:23:08.4673629-07:00;True|2022-07-12T10:23:03.7420305-07:00;True|2022-07-12T10:20:11.4691187-07:00;True|2022-07-12T10:17:54.5318421-07:00;True|2022-07-12T10:09:29.9908022-07:00;True|2022-07-12T10:04:49.2966141-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
