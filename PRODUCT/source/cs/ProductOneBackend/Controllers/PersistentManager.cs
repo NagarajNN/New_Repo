@@ -5,7 +5,9 @@ using NHibernate.Dialect;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Tool.hbm2ddl;
 using ProductOneBackend.PersistentObjects;
+using System.Configuration;
 using System.Reflection;
+using Configuration = NHibernate.Cfg.Configuration;
 
 namespace ProductOneBackend.Controllers
 {
@@ -13,13 +15,16 @@ namespace ProductOneBackend.Controllers
     {
       public static ISessionFactory Session =null;
       public static Configuration configuration=null;
+
+        [Obsolete]
         public static void Initialize()
         {
             configuration = new NHibernate.Cfg.Configuration();
             configuration.DataBaseIntegration(x =>
             {
 
-                x.ConnectionString = "Server = localhost;Port = 5432; Database = projectOne; User Id = postgres; Password=12345678";
+                x.ConnectionString = String.Format("Server={0};Port={1};Database={2};User Id={3};Password={4}", ConfigurationSettings.AppSettings["dbHost"],
+                 ConfigurationSettings.AppSettings["dbPort"], ConfigurationSettings.AppSettings["dataBase"], ConfigurationSettings.AppSettings["userId"], ConfigurationSettings.AppSettings["password"]);
                 x.Driver<NHibernate.Driver.NpgsqlDriver>();
                 x.Dialect<PostgreSQLDialect>();
                 x.LogFormattedSql = true;

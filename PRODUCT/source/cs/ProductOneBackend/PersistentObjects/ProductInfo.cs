@@ -26,7 +26,7 @@ namespace ProductOneBackend.PersistentObjects
 
     public class ProductInfoMap : ClassMapping<ProductInfo>
     {
-        ProductInfoMap()
+        public ProductInfoMap()
         {
             Table(nameof(ProductInfoMap));
             Property(x => x.installationId);
