@@ -1,0 +1,6 @@
+<div class="navigation-header">
+{{#each-in this.productRootLinks as |key val|}}
+     <a href={{val.href}}>{{val.routeName}}</a>
+{{/each-in}}
+</div>
+{{yield}}
