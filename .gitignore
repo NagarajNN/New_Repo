@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PRODUCT/source/iis_host
+/PRODUCT/source/cs/ProductOneBackend/bin
