@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MASTER\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj": {}
+    "C:\\Users\\NagarajanN\\Desktop\\Drivemanager\\DriveManager\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj": {}
   },
   "projects": {
-    "D:\\MASTER\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj": {
+    "C:\\Users\\NagarajanN\\Desktop\\Drivemanager\\DriveManager\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MASTER\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj",
+        "projectUniqueName": "C:\\Users\\NagarajanN\\Desktop\\Drivemanager\\DriveManager\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj",
         "projectName": "ProductOneBackend",
-        "projectPath": "D:\\MASTER\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj",
-        "packagesPath": "C:\\Users\\Naga\\.nuget\\packages\\",
-        "outputPath": "D:\\MASTER\\PRODUCT\\source\\cs\\ProductOneBackend\\obj\\",
+        "projectPath": "C:\\Users\\NagarajanN\\Desktop\\Drivemanager\\DriveManager\\PRODUCT\\source\\cs\\ProductOneBackend\\ProductOneBackend.csproj",
+        "packagesPath": "C:\\Users\\NagarajanN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NagarajanN\\Desktop\\Drivemanager\\DriveManager\\PRODUCT\\source\\cs\\ProductOneBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Naga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NagarajanN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
